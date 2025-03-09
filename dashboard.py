@@ -45,7 +45,7 @@ def create_grouped(day_df):
 
     return grouped
 
-all_df = pd.read_csv("/content/all_data.csv")
+all_df = pd.read_csv("all_data.csv")
 
 # Pastikan kolom tanggal dalam format datetime
 all_df["dteday"] = pd.to_datetime(all_df["dteday"])
