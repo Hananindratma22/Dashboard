@@ -7,13 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/11UkrJf2OhMJVx6Vgt2RGr4BUYSpyYJ_5
 """
 
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import streamlit as st
-from babel.numbers import format_currency
-sns.set(style='dark')
-
 """## Menyiapkan DataFrame
 
 ### **create_df_monthly()** digunakan untuk menyiapkan `monthly_df`
